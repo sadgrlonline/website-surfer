@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Techno";
+    src: url('https://sadgrl.online/fonts/TechnoBoard.ttf');
+}
+
+:root {
+    --main-color: #727272;
+    --background-color: rgb(19, 19, 19);
+    --background-accent: rgb(66, 66, 66);
+
+}
+
+.border {
+    width: 100%;
+    background-image: url('https://sadgrl.online/images/new/slimebar.gif');
+    height: 10px;
+    position: absolute;
+    bottom: -10px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+button {
+    margin: 0 auto;
+    margin-top: -20px;
+    background-color: #947cff;
+}
+
+.draggable {
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+#surf {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: 'Techno';
+    letter-spacing: 3px;
+    border: 2px solid black;
+}
+
+#controls {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    background-image: url('https://sadgrl.online/images/bgs/tile/num.gif');
+    color: white;
+    font-family: Verdana;
+    position: relative;
+}
+
+.space {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe {
+    height: 780px;
+}
+
+#results {
+    display: inline;
+}
+
+#results a {
+    color: lightblue;
+    word-break: break-word;
+}
+
+h1.surf {
+    font-family: Techno;
+    font-weight: normal;
+    font-size: 80px;
+    color: #947cff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    background-color: transparent;
+}
+
+.info {
+    width: 110px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.info a {
+    color: limegreen;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.submit {
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.submit a {
+    color: limegreen;
+}
+
+.minimize {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.minimize a,
+#maximize {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#maximize {
+    font-size: 10px;
+}
+
+.miniPanel {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: 3px solid limegreen;
+    font-family: Verdana;
+}
+
+#miniPanel {
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana;
+    border: 2px solid #947cff;
+
+}
+
+#miniPanel a {
+    color: lightblue;
+}
+
+#filters {
+    font-size: 12px;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.filter {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 80px;
+}
+
+input[type=checkbox] {
+    margin-top: 1px;
+    text-align: right;
+    margin-left: 1px;
+    display: block;
+}
+
+select#cat {
+    height: 40px;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+#info-hidden {
+    display: none;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+label[for='healing'] {
+    color: lightgreen;
+}
+
+label[for='personal'] {
+    color: lightblue;
+}
+
+label[for='serious'] {
+    color: red;
+}
+
+label[for='fun'] {
+    color: pink;
+}
+
+label[for='useful'] {
+    color: orange;
+}
+
+label[for='social'] {
+    color: skyblue;
+}
+
+#minSurf {
+    font-family: monospace;
+    font-weight: bold;
+    border: 2px solid #4028b7;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--main-color);
+}
+
+.container,
+.topbar {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#div_login {
+    background-color: var(--main-color);
+    padding-top: 0px;
+    margin-top: 40px;
+    color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#div_login a {
+    color: white;
+}
+
+
+h1 {
+    background-color: var(--background-accent);
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+
+}
+
+#div_login div {
+    padding: 30px;
+}
+
+.form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forgot {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+#div_login li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=text],
+input[type=password] {
+    height: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: var(--background-accent);
+    color: white;
+}
+
+#but_submit,
+#submit_btn {
+    background-color: var(--background-accent);
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+tbody {
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 915px) {
+    .space {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .main h1 {
+        display: none;
+    }
+
+    button {
+        margin-top: 10px !important;
+    }
+}

@@ -1,0 +1,49 @@
+[24-Oct-2021 22:25:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[24-Oct-2021 22:26:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sadness_websurfer'@'localhost' to database 'websurfer' in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[24-Oct-2021 22:26:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sadness_websurfer'@'localhost' to database 'websurfer' in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sadness/public_html/websurfer/websurf-view.php on line 16
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/websurfer/websurf-view.php on line 17
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sadness/public_html/websurfer/websurf-view.php on line 19
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 22
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 25
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 28
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 31
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 34
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::querySingle(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 37
+[28-Oct-2021 19:22:48 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such table: websites in /home/sadness/public_html/websurfer/websurf-view.php on line 41
+[28-Oct-2021 19:22:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on boolean in /home/sadness/public_html/websurfer/websurf-view.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/websurfer/websurf-view.php on line 42
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:05:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:00 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:04 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:04 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:10 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:10 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[31-Oct-2021 14:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8
+[14-Nov-2021 12:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/sadness/public_html/websurfer/kittycat/config.php on line 8

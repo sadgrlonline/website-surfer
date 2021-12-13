@@ -1,0 +1,34 @@
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+</head>
+<body>
+<div id="surfSubmit">
+<form name="websurf" action="">
+URL: <input type="text" name="url" id="url"><br>
+Category: <input type="text" name="cat" id="cat"><br>
+<input name="websurf" name="submit" id="submit_btn" type="submit">
+</form>
+</div>
+</body>
+<script>
+$( "form" ).on( "submit", function(e) {
+    console.log('test');
+    var dataString = $(this).serialize();
+    
+    // alert(dataString); return false;
+
+    $.ajax({
+      type: "POST",
+      url: "https://meow.sadgrl.online/websurfer/websurf.php",
+      data: dataString,
+      success: function () {
+	$('#url').val("");
+	$('#cat').val("");
+      }
+    });
+
+    e.preventDefault();
+});
+</script>
+</html>
