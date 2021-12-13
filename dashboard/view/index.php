@@ -4,6 +4,8 @@ session_start();
 include "../../auth-session.php";
 include "../../config.php";
 include "template.php";
+$driver = new mysqli_driver();
+$driver->report_mode = MYSQLI_REPORT_ERROR;
 
 if (isset($_GET['del'])) {
     $id = $_GET['del'];
@@ -17,15 +19,30 @@ if (isset($_GET['del'])) {
     $stmt->close();
 }
 
-if (isset($_POST['newUrl'])) {
-    $id2 = $_POST['id'];
+if (isset($_POST['id'])) {
+    $id = $_POST['id'];
     $newUrl = $_POST['newUrl'];
     $newCat = $_POST['newCat'];
 
-    $stmt = $con->prepare("UPDATE websites SET url=?, category=?  WHERE id=?");
-    $stmt->bind_param("sss", $id2, $newUrl, $newCat);
-    $stmt->execute();
+    
 
+    $stmt = $con->prepare("UPDATE websites SET url=?, category=?  WHERE id=?");
+    if (false === $stmt) {
+        die('prepare() failed:' . htmlspecialchars($stmt->error));
+        exit();
+    }
+
+    $stmt->bind_param("sss", $newUrl, $newCat, $id);
+    if (false === $stmt) {
+        die('bind_params() failed:' . htmlspecialchars($stmt->error));
+        exit();
+    }
+    $stmt->execute();
+    if (false === $stmt) {
+        die('execute() failed:' . htmlspecialchars($stmt->error));
+        exit();
+    }
+    $result = $stmt->get_result();
     //$message = "Address " . $id . " is deleted!";
     //echo $message;
     $stmt->close();
