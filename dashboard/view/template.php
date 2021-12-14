@@ -39,18 +39,23 @@ it CANNOT see any of the PHP variables. -->
                     <script>
                     $(document).ready(function() {
                         $('.del').click(function(e) {
-                            e.preventDefault();
-                            var id = $(this).attr("data-id");
-                            var $this = $(this);
+                            if (confirm("Are you sure you want to delete this entry?") == true) {
+                                text = "The entry has been deleted!";
+                                e.preventDefault();
+                                var id = $(this).attr("data-id");
+                                var $this = $(this);
 
-                            console.log(id);
-                            $.ajax({
-                                type: 'post',
-                                url: '?del=' + id,
-                                success: function(response) {
-                                    $('#' + id).hide();
-                                }
-                            });
+                                console.log(id);
+                                $.ajax({
+                                    type: 'post',
+                                    url: '?del=' + id,
+                                    success: function(response) {
+                                        $('#' + id).hide();
+                                    }
+                                });
+                            } else {
+
+                            }
                         });
 
                         // when the edit button is clicked...
